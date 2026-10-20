@@ -1,0 +1,52 @@
+/* Couple-specific adjustments; the original floral invitation is retained. */
+.couple-portrait { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 46%; }
+#hero .z-elem[data-elem-id="1778428280387"] .z-atom { position: relative; display: block; overflow: hidden; border-radius: 122.5px 122.5px 0 0; }
+@media (max-width: 639px) {
+  #hero .z-elem[data-elem-id="1778428280387"] { height: 324px; }
+  #hero .z-elem[data-elem-id="1781784352111000002"] { top: 62px; left: 0; width: 320px; }
+  #hero .z-elem[data-elem-id="1781784352110000001"] { top: 121px; left: 0; width: 320px; }
+  #hero .z-elem[data-elem-id="1781784352111000002"] .z-atom,
+  #hero .z-elem[data-elem-id="1781784352110000001"] .z-atom { font-size: 56px; line-height: 1.12; }
+  #hero .z-elem[data-elem-id="1781784352111000003"] { top: 99px; left: 252px; width: 31px; }
+  #hero .z-elem[data-elem-id="1781784352111000003"] .z-atom { font-size: 34px; }
+  #timer .z-elem[data-elem-id="1781787810395000003"],
+  #timer .z-elem[data-elem-id="1781787812982000004"] { left: 0; width: 320px; }
+  #timer .z-elem[data-elem-id="1781787810395000003"] { top: 61px; }
+  #timer .z-elem[data-elem-id="1781787812982000004"] { top: 121px; }
+  #timer .z-elem[data-elem-id="1781787810395000003"] .z-atom,
+  #timer .z-elem[data-elem-id="1781787812982000004"] .z-atom { font-size: 44px; }
+  #timer .z-elem[data-elem-id="1778362204687000002"] { top: 101px; left: 145px; width: 30px; }
+  #timer .z-elem[data-elem-id="1778362204687000002"] .z-atom { font-size: 29px; }
+  #timer .z-elem[data-elem-id="1778433631596"] { top: 188px; }
+  #timer .z-elem[data-elem-id="1776480969554000006"] { top: 209px; }
+  #timer .z-elem[data-elem-id="1776480454554"],
+  #timer .z-elem[data-elem-id="1776480974782000008"],
+  #timer .z-elem[data-elem-id="1776480971099000007"],
+  #timer .z-elem[data-elem-id="1776480956479000005"] { top: 261px; }
+}
+.custom-section .z-artboard { background: var(--color-background); }
+.custom-content { position: relative; z-index: 1; padding: 30px 18px 20px; text-align: center; color: #25231f; font: 13px/1.5 'Wed', Georgia, serif; }
+.custom-content h2 { margin: 0 0 24px; color: var(--color-accent); font: 700 54px/1.25 'hand', cursive; }
+.custom-content h3, .custom-content p { margin: 0; }
+.custom-content .eyebrow { font-size: 12px; margin-bottom: 7px; }
+.custom-content .venue-name { font: 400 25px/1.3 'potf', Georgia, serif; margin-bottom: 14px; }
+.custom-content .venue-address { font-size: 12px; line-height: 1.65; }
+.map-link { display: inline-block; margin-top: 17px; text-underline-offset: 4px; padding: 5px 0; }
+.location-sprig { position: absolute; width: 105px; top: -55px; pointer-events: none; }
+.sprig-left { left: -40px; transform: rotate(-15deg); }
+.sprig-right { right: -35px; transform: rotate(15deg); }
+#schedule .custom-content { padding-top: 10px; }
+#schedule h2 { margin-bottom: 14px; }
+.schedule-flower { width: 65px; height: 55px; object-fit: contain; margin: 0 auto 10px; }
+.custom-content .event-time { font: 400 36px/1.3 'potf', Georgia, serif; margin-bottom: 8px; }
+.custom-content .event-name { font: 400 18px/1.4 'Wed', Georgia, serif; margin-bottom: 7px; }
+.custom-content .event-place { font-size: 12px; }
+#dress-code .custom-content { padding-top: 22px; }
+#dress-code h2 { margin-bottom: 16px; }
+.dress-intro { line-height: 1.6; }
+.custom-content .palette-title { font: 400 14px/1.4 'Wed', Georgia, serif; margin-top: 22px; margin-bottom: 8px; }
+.custom-content .palette-note { font-size: 11px; margin-bottom: 10px; }
+.palette { display: flex; justify-content: center; gap: 10px; list-style: none; margin: 0; padding: 0; }
+.palette li { width: 58px; display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 8px; }
+.swatch { display: block; width: 36px; height: 36px; border-radius: 50%; background: var(--swatch); border: 1px solid rgba(63, 51, 41, .12); }
+#contacts a { text-underline-offset: 4px; }
