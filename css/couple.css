@@ -50,3 +50,17 @@
 .palette li { width: 58px; display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 8px; }
 .swatch { display: block; width: 36px; height: 36px; border-radius: 50%; background: var(--swatch); border: 1px solid rgba(63, 51, 41, .12); }
 #contacts a { text-underline-offset: 4px; }
+
+#contacts .custom-content { padding-top: 24px; background: var(--color-background); }
+#contacts h2 { margin-bottom: 18px; }
+.agency-logo {
+  width: 176px;
+  height: auto;
+  margin: 28px auto 0;
+  mix-blend-mode: multiply;
+}
+.custom-content .agency-name { font: 400 14px/1.4 'Wed', Georgia, serif; margin: 14px 0 0; }
+.organizers-intro { line-height: 1.6; }
+.organizer { margin-top: 22px; }
+.organizer h3 { font: 400 14px/1.5 'Wed', Georgia, serif; }
+.organizer-call { display: inline-block; margin-top: 8px; font-size: 12px; text-underline-offset: 4px; }
